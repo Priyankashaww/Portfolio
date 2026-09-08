@@ -54,7 +54,9 @@ function Hero() {
             </a>
 
             <a
-              href="src/assets/Resume.pdf"
+              href="public/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-xl border border-white/10 px-6 py-3 font-medium text-gray-300 transition hover:border-violet-400 hover:text-white"
             >
               View Resume

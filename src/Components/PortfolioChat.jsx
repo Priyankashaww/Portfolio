@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Send, Sparkles, Bot, User, LoaderCircle } from "lucide-react";
 import ReactMarkdown from "react-markdown";
-
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 const suggestions = [
   "What are Priyanka's strongest AI skills?",
   "Tell me about her projects",
@@ -51,7 +51,7 @@ function PortfolioChat() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/api/portfolio-chat", {
+      const response = await fetch(`${API_URL}/api/portfolio-chat`, {
         method: "POST",
 
         headers: {
