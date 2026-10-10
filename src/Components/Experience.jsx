@@ -4,7 +4,7 @@ const experiences = [
   {
     role: "AI Deployment Specialist",
     company: "IVEX Ventures",
-    period: "April 2025 – Present",
+    period: "March 2025 – Present",
     points: [
       "Worked on AI and machine learning solutions.",
       "Explored Generative AI, LLMs, and RAG-based applications.",
